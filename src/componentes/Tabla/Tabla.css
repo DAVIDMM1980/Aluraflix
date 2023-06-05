@@ -1,0 +1,22 @@
+.Tabla1 {
+  border-collapse: collapse;
+  border: 2px solid gray;
+   padding: 10px;
+   text-align: center;
+   font-size: 25px;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  }
+
+  th {
+    border: 2px solid gray;
+    font-size: 35px;
+
+  }
+
+  td
+  {
+    border: 1px solid black;
+  }

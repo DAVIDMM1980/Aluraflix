@@ -1,0 +1,288 @@
+{ 
+  
+"titulo":[
+  {
+    
+    "id": "uuid()",
+    "titulo": "Aliens",
+    "colorPrimario": "#57C278",
+    "colorSecundario": "#D9F7E9"
+  },
+  {     
+    "id": "uuid()",
+    "titul": "Fantasmas",
+    "colorPrimario": "#82CFFA",
+    "colorSecundario": "#E8F8FF"
+  },
+  {     
+    "id": "uuid()", 
+    "titulo": "Monstruos",
+    "colorPrimario": "#A6D157",
+    "colorSecundario": "#F0F8E2"
+  },
+  {     
+    "id": "uuid()",
+    "titulo": "Demonios",
+    "colorPrimario": "#E06B69",
+    "colorSecundario": "#FDE7E8"
+  },
+  {     
+    "id": "uuid()",
+    "titulo": "Casas Embrujadas",
+    "colorPrimario": "#DB6EBF",
+    "colorSecundario": "#FAE9F5"
+  },
+  {     
+    "id": "uuid()",
+    "titulo": "Cementerios",
+    "colorPrimario": "#FFBA05",
+    "colorSecundario": "#FFF5D9"
+  },
+  {     
+    "id": "uuid()",
+    "titulo": "Zombies",
+    "colorPrimario": "#FF8A29",
+    "colorSecundario": "#FFEEDF"
+  }
+],
+
+ 
+    
+
+    "posts": [
+    { 
+
+    "id": "uuid()",
+    "categoria": "Asesinos",
+    "linkVideo": "https://youtu.be/WOkmu5RKBdA"  ,
+    "foto": "https://th.bing.com/th/id/OIP.rN2Ov3W1thym4C6_wx7WTQHaLH?w=203&h=304&c=7&r=0&o=5&pid=1.7",
+    "nombre": "PUPPET MASTER 2",
+    "descripcion": "LA VENGANZA DE LOS MUÑECOS 2 ",
+     "fav": "true",
+     "seguridad": " "
+},
+{
+
+  "id": "uuid()",
+    "categoria": "Asesinos",
+    "linkVideo": "https://youtu.be/yx84HWyt6M0"  ,
+    "foto": "https://th.bing.com/th/id/OIP.qOFVCb1KaPjdQ7VATulkrgHaLH?pid=ImgDet&rs=1",
+    "nombre": "El Tren Del Terror",
+    "descripcion": "TERROR TRAIN (1980)",
+   "fav": "true",
+   "seguridad": " "
+   
+},
+
+{
+
+  "id": "uuid()",
+    "categoria": "Asesinos",
+    "linkVideo": "https://youtu.be/bI6wdJ_479Q"  ,
+    "foto": "https://th.bing.com/th/id/OIP.RDVEQSsYSVvUWxq9ArRYQQHaKu?pid=ImgDet&w=200&h=289&c=7",
+    "nombre": "Black Christmas ",
+    "descripcion": "Negra Navidad 1976",
+   "fav": "true",
+   "seguridad": " "
+   
+},
+
+{
+
+  "id": "uuid()",
+    "categoria": "Asesinos",
+    "linkVideo": "https://youtu.be/sMV5GqlXBp8"  ,
+    "foto": "https://th.bing.com/th/id/R.20edaae8b72502d8016ea91f1c0a62d5?rik=FMy1gUlfPEPizg&pid=ImgRaw&r=0",
+    "nombre": "VICTOR CROWLEY",
+    "descripcion": "VICTOR CROWLEY(2018)",
+   "fav": "true",
+   "seguridad": " "
+   
+},
+
+{
+
+  "id": "uuid()",
+    "categoria": "Asesinos",
+    "linkVideo": "https://youtu.be/70oC5691Rwg"  ,
+    "foto": "https://image.tmdb.org/t/p/original/sfBjw1TPwoN7p7bdRO9sgUQpt1q.jpg",
+    "nombre": "Halloween 5",
+    "descripcion": "Halloween 5 español latino",
+   "fav": "true",
+   "seguridad": " "
+},
+
+{ "id": "uuid()",
+"categoria": "Vampiros",
+"linkVideo": "https://youtu.be/xbT1vrsNUT0",
+"foto": "https://th.bing.com/th/id/R.0754bb25c05c9f1c421d93f3222de631?rik=Y%2bfYxp%2byRYfr1Q&pid=ImgRaw&r=0",
+"nombre": "Nosferatu",
+" descripcion": "(4k Remastered) |1922| SUBTITULADA",
+  "fav": "false",
+  "seguridad": " "
+},
+
+
+{ "id": "uuid()",
+"categoria": "Vampiros",
+"linkVideo": "https://youtu.be/CA1hqeZFEZA",
+"foto": "https://www.ifilmdavedere.it/wpifilm/wp-content/uploads/2020/08/Nosferatu-il-principe-della-notte-film-da-vedere-1979-locandina-poster-originale.jpg",
+"nombre": "Nosferatu 1979",
+" descripcion": "Nosferatu El Vampiro De La Noche DVDRip",
+  "fav": "false",
+  "seguridad":  " "
+},
+
+
+{ "id": "uuid()",
+"categoria": "Vampiros",
+"linkVideo": "https://youtu.be/5Xl0l0gtK6g",
+"foto": "https://th.bing.com/th/id/R.fccdae2565fbf1f1b7ab2216402dab54?rik=W8rKulAT8CECVw&riu=http%3a%2f%2fayay.co.uk%2fbackgrounds%2fmovie_posters%2fhorror%2fSHADOW-OF-THE-VAMPIRE.jpg&ehk=WETW7sCu1pYzyCZ2MIZwvbnEZVY6O9ax0igMfJfIcRY%3d&risl=&pid=ImgRaw&r=0",
+"nombre": "La Sombra Vampiro",
+"descripcion": "Shadow of the Vampire",
+  "fav": "false",
+  "seguridad":  " "
+},
+
+{ "id": "uuid()",
+"categoria": "Vampiros",
+"linkVideo": "https://youtu.be/UVgWkBSAPeY",
+"foto": "https://th.bing.com/th/id/R.bdef346db66f828261c27dfa6a91344d?rik=WAtzTvEHKCckvA&pid=ImgRaw&r=0",
+"nombre": "Los 7 Vampiros de oro",
+"descripcion": "Los 7 Vampiros de oro(1974)",
+  "fav": "false",
+  "seguridad":    " "
+},
+
+{ "id": "uuid()",
+"categoria": "Vampiros",
+"linkVideo": "https://youtu.be/et2Hs6PmAfA",
+"foto": "https://th.bing.com/th/id/R.58c8f4c2729e0e9418a180ce17a23aa3?rik=DDAJ6GKZ5Yktjw&riu=http%3a%2f%2fs3-eu-west-1.amazonaws.com%2fabandomedia%2fdb%2ffoto%2fchildren_of_the_night.jpg&ehk=LlPUgAgmK0qx1TqKPUGwXASySW9b1g8sG4%2byFqkAgAc%3d&risl=&pid=ImgRaw&r=0",
+"nombre": "Hijos de la Noche",
+"descripcion": "Hijos de la Noche ( 1991 )",
+"fav": "true",
+"seguridad":  " "
+},
+
+{ "id": "uuid()",
+"categoria": "Monstruos",
+"linkVideo": "https://youtu.be/7OhOxnWgB2A",
+"foto": "https://th.bing.com/th/id/OIP.WPxHaq1kGeSI64ZJKZdZPAAAAA?pid=ImgDet&rs=1",
+"nombre": "El Ultimo Tiburon",
+"descripcion": "𝗘𝗟 Ú𝗟𝗧𝗜𝗠𝗢 𝗧𝗜𝗕𝗨𝗥Ó𝗡 (1981)",
+"fav": "true",
+"seguridad":  " "
+},
+
+{ "id": "uuid()",
+"categoria": "Monstruos",
+"linkVideo": "https://youtu.be/TLaOSHMA1W4",
+"foto": "https://th.bing.com/th/id/R.35e25cecd81b9f667e2e51f5d3d9d5a2?rik=Adu9x8rTVlBhEw&pid=ImgRaw&r=0",
+"nombre": "The Doll Master",
+"descripcion": "La Maestra de las Muñecas",
+"fav": "true",
+"seguridad":  " "
+},
+
+{ "id": "uuid()",
+"categoria": "Monstruos",
+"linkVideo": "https://youtu.be/xEhmEgQHJDU",
+"foto": "https://th.bing.com/th/id/R.b332f85d231c6f43c4a34e149abaf265?rik=82ruVC%2bhywovbw&pid=ImgRaw&r=0",
+"nombre": "La Herencia de los Munster",
+"descripcion": "La Herencia de los Munster ( 1966 )",
+"fav": "true",
+"seguridad":  " "
+},
+
+{ "id": "uuid()",
+"categoria": "Monstruos",
+"linkVideo": "https://youtu.be/VH4Ch5nvj6g",
+"foto": "https://th.bing.com/th/id/R.5eb820b3e97c88d4bd313fdc82628bea?rik=dH%2bls%2b1kXkKGOA&pid=ImgRaw&r=0",
+"nombre": "El Club de los Monstruos",
+"descripcion": "El Club de los Monstruos (1981) ",
+"fav": "true",
+"seguridad":  " "
+},
+
+{ "id": "uuid()",
+"categoria": "Monstruos",
+"linkVideo": "https://youtu.be/M3sfrb4Nh4c",
+"foto": "https://www.dvdsreleasedates.com/posters/800/P/Puppet-Master-Doktor-Death-2022-movie-poster.jpg",
+"nombre": "DOKTOR DEATH ",
+"descripcion": "Puppet Master: DOKTOR DEATH 2022",
+"fav": "true",
+"seguridad":  " "
+}
+],
+
+
+"arregloVideos":[
+  {
+      "video" : "https://www.youtube.com/embed/PhlIUq8RSuA",
+      "nombre" : "Video1",
+      "imagen" : "",
+      "categoria" : "Nuevo",
+      "descripcion" : "",
+      "seguridad" : ""
+  },
+  {
+      "video" : "https://www.youtube.com/embed/T6U-MFw2SDA",
+      "nombre" : "Video2",
+      "imagen" : "",
+      "categoria" : "Nuevo",
+      "descripcion" : "",
+      "seguridad" : ""
+  },
+  {
+      "video" : "https://www.youtube.com/embed/uGBFS9HzVwc",
+      "nombre" : "Video3",
+      "imagen" : "",
+      "categoria" : "Nuevo",
+      "descripcion" : "",
+      "seguridad" : ""
+  },
+  {
+      "video" : "https://www.youtube.com/embed/q-rdZqtS75M",
+      "nombre" : "Video4",
+      "imagen" : "",
+      "categoria" : "Nuevo",
+      "descripcion" : "",
+      "seguridad" : ""
+  },
+  {
+      "video" : "https://www.youtube.com/embed/iHCHDyFVURQ",
+      "nombre" : "Video5",
+      "imagen" : "",
+      "categoria" : "Nuevo",
+      "descripcion" : "",
+      "seguridad" : ""
+  },
+  {
+      "video" : "https://www.youtube.com/embed/JtYuQgvChyQ",
+      "nombre" : "Video6",
+      "imagen" : "",
+      "categoria" : "Nuevo",
+      "descripcion" : "",
+      "seguridad" : ""
+  },
+  {
+      "video" : "https://www.youtube.com/embed/5D62qG1GbJA",
+      "nombre" : "Video7",
+      "imagen" : "",
+      "categoria" : "Nuevo",
+      "descripcion" : "",
+      "seguridad" : ""
+  },
+  {
+      "video" : "https://www.youtube.com/embed/9f7ZUIovff8",
+      "nombre" : "Video8",
+      "imagen" : "",
+      "categoria" : "Nuevo",
+      "descripcion" : "",
+      "seguridad" : ""
+  }
+]
+}
+
+
+
