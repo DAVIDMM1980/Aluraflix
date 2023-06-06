@@ -18,6 +18,8 @@ export const Btn = styled.button`
   color: ${colores.cNegro};
   background: ${colores.cBlanco};
   border: 1px solid ${colores.cNegro};
+  //margin-top: 50px;
+  
 `;
 //h1 estilizado de la pagina
 export const Styledh1= styled.h1`

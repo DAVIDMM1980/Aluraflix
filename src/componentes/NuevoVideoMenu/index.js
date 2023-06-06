@@ -3,7 +3,8 @@ import {useState} from 'react';
  //import './App.css';
  import Categoria from "../Categoria";
  import Formulario from "../Formulario";
- 
+ import { Link } from "react-router-dom";
+ import "./NuevoVideoMenu.css"
    
  
  
@@ -12,44 +13,44 @@ import {useState} from 'react';
  const [categorias, actualizarCategorias] = useState([ 
        {
        id: uuid(),
-       titulo: "Aliens",
-       colorPrimario: "#57C278",
+       titulo: "Asesinos",
+       colorPrimario: "white",
        colorSecundario: "#D9F7E9"
        },
        {     
        id: uuid(),
-       titulo: "Fantasmas",
-       colorPrimario: "#82CFFA",
+       titulo: "Vampiros",
+       colorPrimario: "white",
        colorSecundario: "#E8F8FF"
        },
        {     
        id: uuid(), 
        titulo: "Monstruos",
-       colorPrimario: "#A6D157",
+       colorPrimario: "white",
        colorSecundario: "#F0F8E2"
        },
        {     
        id: uuid(),
        titulo: "Demonios",
-       colorPrimario: "#E06B69",
+       colorPrimario: "white",
        colorSecundario: "#FDE7E8"
        },
        {     
        id: uuid(),
        titulo: "Casas Embrujadas",
-       colorPrimario: "#DB6EBF",
+       colorPrimario: "white",
        colorSecundario: "#FAE9F5"
        },
        {     
        id: uuid(),
        titulo: "Cementerios",
-       colorPrimario: "#FFBA05",
+       colorPrimario: "white",
        colorSecundario: "#FFF5D9"
        },
        {     
        id: uuid(),
        titulo: "Zombies",
-       colorPrimario: "#FF8A29",
+       colorPrimario:"white",
        colorSecundario: "#FFEEDF"
        
        }
@@ -72,87 +73,36 @@ import {useState} from 'react';
        {
  
        id: uuid(),
-       categoria: "Fantasmas",
+       categoria: "Asesinos",
        linkVideo: "https://youtu.be/qgb4mzau-34"  ,
        foto: "https://github.com/harlandlohora.png",
        nombre: "Harland Lohora",
-       descripcion: "Instructor"
-       ,fav: true
-     },
-     {
- 
-       id: uuid(),
-       categoria: "Fantasmas",
-       linkVideo: "https://youtu.be/qgb4mzau-34"  ,
-       foto: "https://github.com/harlandlohora.png",
-       nombre: "Harland Lohora",
-       descripcion: "Instructor"
-       ,fav: true
-     },
-     {
- 
-       id: uuid(),
-       categoria: "Fantasmas",
-       linkVideo: "https://youtu.be/qgb4mzau-34"  ,
-       foto: "https://github.com/harlandlohora.png",
-       nombre: "Harland Lohora",
-       descripcion: "Instructor"
-       ,fav: true
-     },
- 
-     { id: uuid(),
-       categoria: "Demonios",
-       linkVideo: "https://youtu.be/k0pgLOTj0zw",
-       foto: "https://github.com/harlandlohora.png",
-       nombre: "Genesys Rondón",
-       descripcion: "Desarrolladora de software e instructora"
-       ,fav: false
-     },
- 
-     { id: uuid(),
-       categoria: "Demonios",
-       linkVideo: "https://youtu.be/k0pgLOTj0zw",
-       foto: "https://github.com/harlandlohora.png",
-       nombre: "Genesys Rondón",
-       descripcion: "Desarrolladora de software e instructora"
-       ,fav: false
-     },
- 
-     { id: uuid(),
-       categoria: "Demonios",
-       linkVideo: "https://youtu.be/k0pgLOTj0zw",
-       foto: "https://github.com/harlandlohora.png",
-       nombre: "Genesys Rondón",
-       descripcion: "Desarrolladora de software e instructora"
-       ,fav: false
-     },
- 
-     { id: uuid(),
-       categoria: "Casas Embrujadas",
-       linkVideo: "https://youtu.be/qgb4mzau-34",
-       foto: "https://github.com/harlandlohora.png",
-       nombre: "Jeanmarie Quijada",
-       descripcion: "Instructora en Alura Latam"
+       descripcion: "Peliculas Asesinos"
        ,fav: true
      },
      
-     { id: uuid(),
-       categoria: "Casas Embrujadas",
-       linkVideo: "https://youtu.be/qgb4mzau-34",
-       foto: "https://github.com/harlandlohora.png",
-       nombre: "Jeanmarie Quijada",
-       descripcion: "Instructora en Alura Latam"
-       ,fav: true
-     },
  
      { id: uuid(),
-       categoria: "Casas Embrujadas",
+       categoria: "Vampiros",
+       linkVideo: "https://youtu.be/k0pgLOTj0zw",
+       foto: "https://github.com/harlandlohora.png",
+       nombre: "Genesys Rondón",
+       descripcion: "Peliculas Vampiros"
+       ,fav: false
+     },
+ 
+    
+ 
+     { id: uuid(),
+       categoria: "Monstruos",
        linkVideo: "https://youtu.be/qgb4mzau-34",
        foto: "https://github.com/harlandlohora.png",
        nombre: "Jeanmarie Quijada",
-       descripcion: "Instructora en Alura Latam"
+       descripcion: "Peliculas Monstruos"
        ,fav: true
      },
+     
+     
  
  ])
  
@@ -177,17 +127,17 @@ import {useState} from 'react';
  
  
  //Actualizar color de categoria
- 
  const actualizatColor = (color, id) => {
-       console.log ("Actualizar",color, id)
-       const categoriaActualizados = categorias.map((categoria) =>{
-          if (categoria.id === id) {
-             categoria.colorPrimario = color}
+  console.log ("Actualizar",color, id)
+  const categoriaActualizados = categorias.map((categoria) =>{
+     if (categoria.id === id) {
+        categoria.colorPrimario = color}
+
+     return categoria
+  })
+  actualizarCategorias(categoriaActualizados)
+}
  
-          return categoria
-       })
-       actualizarCategorias(categoriaActualizados)
- }
  
  //Crear categoria
  const crearCategoria = (nuevoCategoria) => {
@@ -206,21 +156,19 @@ import {useState} from 'react';
  }
  
  return (
-   
-   <div>
- 
-      
-       {mostrarFormulario &&  <Formulario 
-             categorias= {categorias.map((categoria)=>  categoria.titulo)}
-             registrarVideo= {registrarVideo}
-             crearCategoria= {crearCategoria}
-             />}
-       
-       
- 
-       
-   </div>
-   );
+  <div>
+    {mostrarFormulario && (
+      <Formulario
+        categorias={categorias.map((categoria) => categoria.titulo)}
+        registrarVideo={registrarVideo}
+        crearCategoria={crearCategoria}
+      />
+    )}
+    
+  </div>
+);
+
+
    }
  
  

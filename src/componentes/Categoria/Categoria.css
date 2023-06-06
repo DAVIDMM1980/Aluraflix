@@ -1,3 +1,21 @@
+
+
+/*
+.categoria  {
+  background: #FFFFFF;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+}
+
+
+
+
+
 .categoria{
     width: 100%;
    
@@ -18,7 +36,7 @@
 .categoria h3{
     font-weight: 400;
     color: #212121;
-    border-bottom: 4px solid#57c278;
+   
     display: inline-block;
     padding-bottom: 8px;
 }
@@ -28,3 +46,12 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+
+.categoria
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+*/

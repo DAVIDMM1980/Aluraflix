@@ -9,7 +9,7 @@ import NuevoVideo1 from "./paginas/NuevoVideo1";
 import NuevaCategoria1 from "./paginas/NuevaCategoria1";
 import { useState,useEffect } from "react";
 
-import './App.css';
+
 
 
 

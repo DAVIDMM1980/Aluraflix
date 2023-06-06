@@ -4,14 +4,11 @@ import "./Formulario.css";
 import Campo from "../Campo";
 import ListaOpciones from "../ListaOpciones";
 import Boton from "../Boton";
-import Tabla from '../Tabla';
 import { useLocation } from 'react-router-dom';
-
 import { colores } from "../UI/variables";
-
 import { StyledBox1, StyledBox2,  StyledBox3} from "../UI"
-
 import { Link } from "react-router-dom";
+import Tabla from '../Tabla';
 
    
 
@@ -104,7 +101,7 @@ const Formulario = (props) => {
         </StyledBox2>
         <StyledBox3>
         <Link to={'/nueva-categoria'}>
-        <Boton colorFondo={colores.cblanco} colorLetra={colores.cRojo} borde={'si'}>
+        <Boton colorFondo={colores.cblanco} colorLetra={colores.cNegro} borde={'si'}>
         Nueva Categoria
         </Boton>
         </Link>
@@ -158,11 +155,11 @@ const Formulario = (props) => {
           <Boton className="boton2">Limpiar</Boton>
           </StyledBox2>
         </StyledBox1>
-        <Tabla/> 
-          
+       
+        <Tabla/>
            
         </form>
-         
+        
         </section>
       );
   }

@@ -14,24 +14,37 @@ const Categoria = (props) => {
 
     const estiloTitulo = {borderColor:colorPrimario}
 
-    return <> { 
-        videos.length > 0 &&
-        <section className="categoria" style={obj}>
-          <h3 style=  {{estiloTitulo}}  >{titulo}</h3>
-          <div className="videos">
-            {
-                videos.map((video, index)=><Video
-                    datos={video}
-                    key={index} 
-                    colorPrimario={colorPrimario}
-                    eliminarVideo = {eliminarVideo}
-                    like={like}
-                 />)
-            }
+   
+
+    return (
+   
+        <div>
+          <>
+            {videos.length > 0 && (
+              <div className="categoria">
+                <section className="categoria2" style={obj}>
+                  {/* <h3 style=  {{estiloTitulo}}  >{titulo}</h3>*/}
+                  <div className="videos">
+                    {videos.map((video, index) => (
+                      <Video
+                        datos={video}
+                        key={index}
+                        colorPrimario={colorPrimario}
+                        eliminarVideo={eliminarVideo}
+                        like={like}
+                      />
+                    ))}
+                  </div>
+                </section>
+              </div>
+            )}
+          </>
         </div>
-    </section>
-}
-</>
-}
+      
+    );
+    
+
+  }
 
 export default Categoria
+{/* <h3 style=  {{estiloTitulo}}  >{titulo}</h3>*/}
